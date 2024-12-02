@@ -40,7 +40,7 @@ public class EMNames implements Serializable {
             properties.put("jakarta.persistence.jdbc.user", jdbc_database_username);
             properties.put("jakarta.persistence.jdbc.driver", "org.postgresql.Driver");
             properties.put("jakarta.persistence.jdbc.password", jdbc_database_password);
-            System.out.println("XXXXXXXXXX ===== fim config");
+            System.out.println("XXXXXXXXXX\n Fim da Execução");
             properties.put("jakarta.persistence.jdbc.url", BD_producao );
             try {
                 System.out.println("Carregar driver");
